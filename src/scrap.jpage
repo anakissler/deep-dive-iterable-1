@@ -1,7 +1,19 @@
-for (java.math.BigInteger value : 
-  	new edu.cnm.deepdive.implementations.Fibonacci()) {
-  System.out.println(value);
-  if (value.compareTo(java.math.BigInteger.valueOf(1000000)) >= 0) {
-    break;
+
+package edu.cnm.deepdive.implementations;
+
+import java.math.BigInteger;
+import java.util.Iterator;
+
+public class Pandovan {
+  
+  public static void main (String [] args) {
+        for (java.math.BigInteger value : 
+        	new edu.cnm.deepdive.implementations.Pandovan()) ;
+        System.out.println(value);
+        if (value.compareTo(java.math.BigInteger.valueOf(1000000)) >= 0) {
+          break;
+        }
+      }
   }
+  
 }
